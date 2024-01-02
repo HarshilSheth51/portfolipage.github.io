@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+
+/* Left column */
+
+.leftcolumn {
+    position: absolute;
+    width: 75%;
+    margin: 10% 0 0 15%;
+}
+
+
+/* Right column */
+
+.rightcolumn {
+    width: 25%;
+    margin: 0 10% 0 55%;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.per-img {
+    border: 1px solid rgb(218, 198, 198);
+    border-radius: 50px;
+    box-shadow: 5px 5px rgb(223, 96, 113);
+    margin-top: 20%;
+}
+
+.circle {
+    position: absolute;
+}
+
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 600px) {
+    .leftcolumn,
+    .rightcolumn,
+    .circle {
+        width: 50%;
+        margin-left: 5%;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card1,
+    .card2,
+    .card3,
+    row {
+        margin-bottom: 20%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For tablets and larger screens */
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        width: 8.33%;
+    }
+}
+
+.row {
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 5%;
+    text-align: center;
+    align-items: center;
+    padding-top: 4%;
+}
+
+.card1,
+.card2,
+.card3 {
+    box-shadow: 0 10px 10px 5px rgba(26, 6, 6, 0.2);
+    padding: 20px;
+    border-radius: 10%;
+    background-color: rgb(240, 234, 234);
+    text-align: center;
+    align-items: center;
+    margin: 10% 0 10% 0;
+}
+
+@media screen and (max-width: 600px) {
+    .card1,
+    .card2,
+    .card3 {
+        margin: 35% 12% 0 0;
+    }
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+}
+
+.row1 {
+    margin-left: 60%;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
